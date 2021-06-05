@@ -5,7 +5,7 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header name="Yadnyesh" title="Welcome to my Home!"/>
       <header className="App-header">
         <h1>Restarting the React.js learning journey</h1>
         <img src={logo} className="App-logo" alt="logo" />
