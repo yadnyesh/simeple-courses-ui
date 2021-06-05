@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import{Button} from "reactstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
-
-
+import Home from './components/Home';
+import { Button } from 'reactstrap';
 
 function App() {
 
@@ -14,11 +13,8 @@ function App() {
 
   return (
       <div>
+        <Home />
         <ToastContainer />
-        <h1>Simple Application</h1>
-        <Button color="primary" outline onClick={btnHandle}>
-          First React Button
-        </Button>
       </div>
   );
 }
