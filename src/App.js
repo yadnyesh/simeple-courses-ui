@@ -4,6 +4,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 import Home from './components/Home';
 import { Button } from 'reactstrap';
+import Course from './components/Course';
+import AllCourses from './components/AllCourses';
 
 function App() {
 
@@ -15,8 +17,9 @@ function App() {
       <div>
         <Home />
         <ToastContainer />
+        <AllCourses />
       </div>
   );
-}
+};
 
 export default App;
