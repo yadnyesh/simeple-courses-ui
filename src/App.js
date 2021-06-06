@@ -6,6 +6,7 @@ import Home from './components/Home';
 import { Button } from 'reactstrap';
 import Course from './components/Course';
 import AllCourses from './components/AllCourses';
+import AddCourse from './components/AddCourse';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <ToastContainer />
         <AllCourses />
+        <AddCourse />
       </div>
   );
 };
